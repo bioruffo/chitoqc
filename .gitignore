@@ -1,3 +1,9 @@
+# mp4 movie output
+*.mp4
+
+# Images
+./CTQC_img/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
