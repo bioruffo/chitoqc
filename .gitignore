@@ -2,7 +2,10 @@
 *.mp4
 
 # Images
-./CTQC_img/*
+CTQC_img/*
+
+# Log file
+ChiToQC_log.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

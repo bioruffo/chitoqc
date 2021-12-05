@@ -1,0 +1,12 @@
+# Configuration file for the ChiToQC Python script
+
+LOCATION = chr1
+START = 0	# Start nucleotide to be retrieved from the BAM file
+STOP = 80000000	# Stop nucleotide to be retrieved from the BAM file
+BRACKMIN = 0	# Starting nucleotide to be plotted from sequences
+BRACKMAX = 300	# End nucleotide to be plotted from sequences
+BRACKSTEP = 5	# Sequence nucleotides to be pooled per frame
+QUALITY = 2	# Magnification from the bare-minimum 29x20 grid
+
+# WARNING: if existing, any data in the image directory will be lost.
+IMGDIR = CTQC_img	# Folder where the script will save its images
